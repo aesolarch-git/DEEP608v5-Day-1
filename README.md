@@ -39,3 +39,12 @@
 	 One Tab Space
 	 	 Two Tab Space
 	  One Tab Two Space
+--- my pasted fix
+ on:
+   push:
+     branches: [ main ]
+     paths:
+     - 'infrastructure/**'
+   pull_request:
+     paths:
+     - 'infrastructure/**'
